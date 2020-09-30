@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2fb9f8f-3998-4af0-aa5c-0c85c4a85efe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples-business/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples-storage/src/main/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="c2fb9f8f-3998-4af0-aa5c-0c85c4a85efe" name="Default" comment="解决maven依赖问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-business/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/samples-business/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-order/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/samples-order/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-storage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/samples-storage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-storage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/samples-storage/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-storage/src/main/resources/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/samples-storage/src/main/resources/file.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-storage/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/samples-storage/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-storage/target/classes/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/samples-storage/target/classes/file.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/samples-business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-business/target/classes/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/samples-business/target/classes/file.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/samples-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/samples-order/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/samples-business/target/" />
     <ignored path="$PROJECT_DIR$/samples-order/target/" />
@@ -29,20 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="file.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples-storage/src/main/resources/file.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BusinessExampleApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/BusinessExampleApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="312">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="method#main#0;class#BusinessExampleApplication#0" expanded="true" />
               </folding>
@@ -50,62 +38,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/samples-business/src/main/resources/application.properties">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples-business/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="672">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file leaf-file-name="StorageDubboService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples-common/src/main/java/io/seata/samples/integration/common/dubbo/StorageDubboService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples-order/src/main/resources/application.properties">
+      <file leaf-file-name="BusinessServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/service/BusinessServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+            <state relative-caret-position="768">
+              <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples-order/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples-order/pom.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples-storage/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples-storage/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples-business/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="OrderExampleApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples-order/src/main/java/io/seata/samples/integration/order/OrderExampleApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/service/BusinessService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="BusinessController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/controller/BusinessController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+            <state relative-caret-position="528">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="method#handleBusiness#0;class#BusinessController#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples-storage/pom.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file leaf-file-name="StorageExampleApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples-storage/src/main/java/io/seata/samples/integration/storage/StorageExampleApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -115,12 +124,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>StreamReadFeature</find>
-      <find>common</find>
       <find>json</find>
       <find>jack</find>
       <find>jackson-</find>
       <find>jac</find>
       <find>nacos-client</find>
+      <find>common</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,15 +148,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/samples-account/src/main/java/io/seata/samples/integration/account/AccountExampleApplication.java" />
-        <option value="$PROJECT_DIR$/samples-common/pom.xml" />
         <option value="$PROJECT_DIR$/samples-account/pom.xml" />
         <option value="$PROJECT_DIR$/samples-account/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/samples-order/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/samples-order/pom.xml" />
         <option value="$PROJECT_DIR$/samples-storage/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/samples-storage/src/main/resources/file.conf" />
         <option value="$PROJECT_DIR$/samples-storage/pom.xml" />
         <option value="$PROJECT_DIR$/samples-business/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/samples-business/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/samples-common/pom.xml" />
+        <option value="$PROJECT_DIR$/samples-business/pom.xml" />
+        <option value="$PROJECT_DIR$/samples-order/pom.xml" />
       </list>
     </option>
   </component>
@@ -199,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,50 +304,21 @@
               <item name="samples-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-dubbo-seata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-dubbo-seata" type="462c0819:PsiDirectoryNode" />
-              <item name="samples-storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-dubbo-seata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-dubbo-seata" type="462c0819:PsiDirectoryNode" />
-              <item name="samples-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-dubbo-seata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-dubbo-seata" type="462c0819:PsiDirectoryNode" />
-              <item name="samples-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-dubbo-seata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-dubbo-seata" type="462c0819:PsiDirectoryNode" />
-              <item name="samples-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-dubbo-seata" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-dubbo-seata" type="462c0819:PsiDirectoryNode" />
-              <item name="samples-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="samples-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-dubbo-seata" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-dubbo-seata" type="462c0819:PsiDirectoryNode" />
               <item name="samples-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-dubbo-seata" type="b2602c69:ProjectViewProjectNode" />
@@ -351,8 +332,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,7 +366,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BusinessExampleApplication">
+  <component name="RunManager" selected="Spring Boot.OrderExampleApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -460,7 +442,11 @@
       <option name="presentableId" value="Default" />
       <updated>1600765809583</updated>
       <workItem from="1600765811766" duration="2932000" />
-      <workItem from="1600768919817" duration="2041000" />
+      <workItem from="1600768919817" duration="6297000" />
+      <workItem from="1600945553879" duration="5305000" />
+      <workItem from="1601021283044" duration="3871000" />
+      <workItem from="1601339886867" duration="430000" />
+      <workItem from="1601455051665" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1600773840299</created>
@@ -469,19 +455,32 @@
       <option name="project" value="LOCAL" />
       <updated>1600773840299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="解决maven依赖问题">
+      <created>1600774106674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600774106674</updated>
+    </task>
+    <task id="LOCAL-00003" summary="解决maven依赖问题">
+      <created>1600774423552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600774423552</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4973000" />
+    <option name="totallyTimeSpent" value="19428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1347" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32974482" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32974482" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info id="Capture Tool" order="2" />
@@ -497,25 +496,26 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869812" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295362" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295362" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295362" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="JProfiler" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="8" visible="true" weight="0.3295362" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -528,14 +528,56 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="解决maven依赖问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决maven依赖问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/controller/BusinessController.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/service/BusinessServiceImpl.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/service/BusinessServiceImpl.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/samples-business/src/main/resources/file.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-common/src/main/java/io/seata/samples/integration/common/dto/BusinessDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/controller/BusinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/samples-account/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -543,9 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9384">
           <caret line="391" column="40" selection-start-line="391" selection-start-column="40" selection-end-line="391" selection-end-column="40" />
-          <folding>
-            <element signature="method#findClass#0;class#URLClassLoader#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,6 +603,7 @@
             <element signature="n#exclusions#0;n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
             <element signature="n#exclusion#0;n#exclusions#0;n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
             <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -646,9 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
           <caret line="391" column="40" selection-start-line="391" selection-start-column="40" selection-end-line="391" selection-end-column="40" />
-          <folding>
-            <element signature="method#findClass#0;class#URLClassLoader#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,35 +707,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-          <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples-account/src/main/java/io/seata/samples/integration/account/AccountExampleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="n#exclusions#0;n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#exclusion#0;n#exclusions#0;n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/samples-account/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -725,24 +735,6 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples-order/pom.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-          <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples-order/src/main/java/io/seata/samples/integration/order/OrderExampleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples-storage/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -757,45 +749,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/controller/BusinessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
-          <folding>
-            <element signature="method#handleBusiness#0;class#BusinessController#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples-order/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples-storage/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples-storage/src/main/java/io/seata/samples/integration/storage/StorageExampleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples-storage/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/samples-business/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/BusinessExampleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="method#main#0;class#BusinessExampleApplication#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples-order/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -804,12 +765,367 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples-business/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/samples-business/src/main/resources/registry.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-business/src/main/resources/file.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="864">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-common/src/main/java/io/seata/samples/integration/common/dto/BusinessDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-business/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-account/src/main/java/io/seata/samples/integration/account/AccountExampleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-storage/src/main/java/io/seata/samples/integration/storage/StorageExampleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.12.RELEASE/spring-web-5.0.12.RELEASE.jar!/org/springframework/web/bind/annotation/PostMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar!/com/fasterxml/jackson/core/StreamWriteFeature.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="n#exclusions#0;n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#exclusion#0;n#exclusions#0;n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-common/src/main/java/io/seata/samples/integration/common/dubbo/AccountDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-common/src/main/java/io/seata/samples/integration/common/dubbo/OrderDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-common/src/main/java/io/seata/samples/integration/common/exception/DefaultException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-common/src/main/java/io/seata/samples/integration/common/dubbo/StorageDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/service/BusinessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/service/BusinessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/controller/BusinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="method#handleBusiness#0;class#BusinessController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-business/src/main/java/io/seata/samples/integration/call/BusinessExampleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="method#main#0;class#BusinessExampleApplication#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-storage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="uml://MAVEN/io.seata:samples-account:1.1.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>io.seata:samples-account:1.1.0</OriginalElement>
+          <nodes>
+            <node x="" y="">io.seata:samples-account:1.1.0</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.8.RELEASE</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.8.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.8</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.8.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.8</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.8.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.8/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.8.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.8</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.8.RELEASE</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.37</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.37</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.37</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.14.Final</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.14.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.14.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/org.springframework.boot:spring-boot-starter-web:jar:2.0.8.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.14.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">io.seata:samples-common:jar:1.1.0/com.fasterxml.jackson.core:jackson-core:jar:2.9.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.2.RELEASE/org.springframework.security:spring-security-crypto:jar:5.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60/org.bouncycastle:bcprov-jdk15on:jar:1.60</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.code.findbugs:jsr305:jar:3.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-servo:jar:0.4.9/com.netflix.servo:servo-core:jar:0.7.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.hystrix:hystrix-core:jar:1.4.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.hystrix:hystrix-core:jar:1.4.3/com.netflix.archaius:archaius-core:jar:0.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/org.apache.httpcomponents:httpclient:jar:4.5.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/org.apache.httpcomponents:httpclient:jar:4.5.6/org.apache.httpcomponents:httpcore:jar:4.4.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.sun.jersey:jersey-client:jar:1.19.1/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.sun.jersey:jersey-client:jar:1.19.1/com.sun.jersey:jersey-core:jar:1.19.1/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.servo:servo-core:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:jar:0.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
+            <node x="" y="">com.alibaba:dubbo-registry-nacos:jar:0.0.2</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/org.springframework:spring-webmvc:jar:5.0.12.RELEASE</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/io.netty:netty-all:jar:4.1.42.Final</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.alibaba:fastjson:jar:1.2.67</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.alibaba:druid:jar:1.1.10</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.typesafe:config:jar:1.2.1</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/commons-pool:commons-pool:jar:1.6</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.google.protobuf:protobuf-java:jar:3.7.1</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/cglib:cglib:jar:3.1</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/cglib:cglib:jar:3.1/org.ow2.asm:asm:jar:4.2</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.google.guava:guava:jar:27.0.1-jre</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.google.guava:guava:jar:27.0.1-jre/com.google.guava:failureaccess:jar:1.0.1</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.google.guava:guava:jar:27.0.1-jre/com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.google.guava:guava:jar:27.0.1-jre/com.google.code.findbugs:jsr305:jar:3.0.2</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.google.guava:guava:jar:27.0.1-jre/org.checkerframework:checker-qual:jar:2.5.2</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.google.guava:guava:jar:27.0.1-jre/com.google.errorprone:error_prone_annotations:jar:2.2.0</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.google.guava:guava:jar:27.0.1-jre/com.google.j2objc:j2objc-annotations:jar:1.1</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.google.guava:guava:jar:27.0.1-jre/org.codehaus.mojo:animal-sniffer-annotations:jar:1.17</node>
+            <node x="" y="">io.seata:seata-all:jar:1.3.0/com.github.ben-manes.caffeine:caffeine:jar:2.6.2</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.6.7/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.6.7/org.jboss.netty:netty:jar:3.2.5.Final</node>
+            <node x="" y="">com.alibaba.nacos:nacos-client:jar:1.0.0</node>
+            <node x="" y="">com.alibaba.nacos:nacos-client:jar:1.0.0/com.alibaba.nacos:nacos-common:jar:1.0.0</node>
+            <node x="" y="">com.alibaba.nacos:nacos-client:jar:1.0.0/com.alibaba.nacos:nacos-common:jar:1.0.0/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">com.alibaba.nacos:nacos-client:jar:1.0.0/com.alibaba.nacos:nacos-common:jar:1.0.0/org.apache.commons:commons-lang3:jar:3.7</node>
+            <node x="" y="">com.alibaba.nacos:nacos-client:jar:1.0.0/com.alibaba.nacos:nacos-api:jar:1.0.0</node>
+            <node x="" y="">com.alibaba.nacos:nacos-client:jar:1.0.0/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">com.alibaba.nacos:nacos-client:jar:1.0.0/io.prometheus:simpleclient:jar:0.5.0</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot:jar:2.0.8.RELEASE</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.8.RELEASE</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.8.RELEASE</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.8.RELEASE/ch.qos.logback:logback-classic:jar:1.1.6</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.8.RELEASE/ch.qos.logback:logback-classic:jar:1.1.6/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.8.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.8.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.8.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/org.springframework.boot:spring-boot-starter:jar:2.0.8.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/com.alibaba.nacos:nacos-spring-context:jar:0.2.2-RC1</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/com.alibaba.nacos:nacos-spring-context:jar:0.2.2-RC1/com.alibaba.spring:spring-context-support:jar:1.0.6</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/com.alibaba.boot:nacos-config-spring-boot-autoconfigure:jar:0.2.1</node>
+            <node x="" y="">com.alibaba.boot:nacos-config-spring-boot-starter:jar:0.2.1/com.alibaba.boot:nacos-spring-boot-base:jar:0.2.1</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.8.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.8.RELEASE/com.zaxxer:HikariCP:jar:2.7.9</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.8.RELEASE/org.springframework:spring-jdbc:jar:5.0.8.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.8.RELEASE/org.springframework:spring-jdbc:jar:5.0.8.RELEASE/org.springframework:spring-tx:jar:5.0.8.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.2</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.mybatis:mybatis:jar:3.4.6</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.mybatis:mybatis-spring:jar:1.3.2</node>
+            <node x="" y="">com.baomidou:mybatis-plus:jar:2.3</node>
+            <node x="" y="">com.baomidou:mybatis-plus:jar:2.3/com.baomidou:mybatis-plus-support:jar:2.3</node>
+            <node x="" y="">com.baomidou:mybatis-plus:jar:2.3/com.baomidou:mybatis-plus-core:jar:2.3</node>
+            <node x="" y="">com.baomidou:mybatis-plus:jar:2.3/com.baomidou:mybatis-plus-core:jar:2.3/com.github.jsqlparser:jsqlparser:jar:1.1</node>
+            <node x="" y="">com.baomidou:mybatis-plus:jar:2.3/com.baomidou:mybatis-plus-generate:jar:2.3</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.springframework:spring-test:jar:5.0.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.8.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
+            <node x="" y="">org.projectlombok:lombok:jar:1.16.22</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-registry-api:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-registry-api:jar:2.6.7/com.alibaba:dubbo-cluster:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-registry-api:jar:2.6.7/com.alibaba:dubbo-container-api:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-monitor-api:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/log4j:log4j:jar:1.2.16</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/com.alibaba:hessian-lite:jar:3.2.5</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/com.esotericsoftware:kryo:jar:4.0.1</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/com.esotericsoftware:kryo:jar:4.0.1/com.esotericsoftware:reflectasm:jar:1.11.3</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/com.esotericsoftware:kryo:jar:4.0.1/com.esotericsoftware:reflectasm:jar:1.11.3/org.ow2.asm:asm:jar:4.2</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/com.esotericsoftware:kryo:jar:4.0.1/com.esotericsoftware:minlog:jar:1.3.0</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/com.esotericsoftware:kryo:jar:4.0.1/org.objenesis:objenesis:jar:2.5.1</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/de.javakaffee:kryo-serializers:jar:0.42</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/de.javakaffee:kryo-serializers:jar:0.42/com.esotericsoftware:kryo:jar:4.0.0</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/de.ruedigermoeller:fst:jar:2.48-jdk-6</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/de.ruedigermoeller:fst:jar:2.48-jdk-6/org.javassist:javassist:jar:3.19.0-GA</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/de.ruedigermoeller:fst:jar:2.48-jdk-6/org.objenesis:objenesis:jar:2.4</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/de.ruedigermoeller:fst:jar:2.48-jdk-6/com.cedarsoftware:java-util:jar:1.9.0</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/de.ruedigermoeller:fst:jar:2.48-jdk-6/com.cedarsoftware:java-util:jar:1.9.0/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-common:jar:2.6.7/de.ruedigermoeller:fst:jar:2.48-jdk-6/com.cedarsoftware:java-util:jar:1.9.0/com.cedarsoftware:json-io:jar:2.5.1</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-remoting-api:jar:2.6.7/com.alibaba:dubbo-serialization-api:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-filter-validation:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-filter-cache:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-config-api:jar:2.6.7/com.alibaba:dubbo-filter-cache:jar:2.6.7/javax.cache:cache-api:jar:1.1.0</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/org.springframework:spring-web:jar:5.0.12.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-rpc-injvm:jar:2.6.7</node>
+            <node x="" y="">com.alibaba:dubbo-config-spring:jar:2.6.7/com.alibaba:dubbo-rpc-injvm:jar:2.6.7/com.alibaba:dubbo-rpc-api:jar:2.6.7</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.0.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.0.8.RELEASE/org.springframework:spring-expression:jar:5.0.12.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.0.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.0.8.RELEASE/org.springframework:spring-jcl:jar:5.0.12.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:5.0.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:5.0.8.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7785687663063734" x="6697.0" y="1050.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-order/src/main/java/io/seata/samples/integration/order/OrderExampleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples-order/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
